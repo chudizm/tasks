@@ -25,5 +25,5 @@ public:
 	int peek();								// - посмотреть выходной элемент
 	~queue();								// - деструктор
 
-	friend ostream& operator<<(ostream &os, const queue& arg);
+	friend ostream& operator<<(ostream &os, const queue& arg);	 // - вывод
 };
