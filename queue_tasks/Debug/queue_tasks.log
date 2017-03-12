@@ -1,3 +1,8 @@
-﻿  main.cpp
-  queue_tasks.vcxproj -> c:\users\роман\documents\visual studio 2015\Projects\queue_tasks\Debug\queue_tasks.exe
-  queue_tasks.vcxproj -> c:\users\роман\documents\visual studio 2015\Projects\queue_tasks\Debug\queue_tasks.pdb (Full PDB)
+﻿  queue.cpp
+c:\users\роман\documents\visual studio 2015\projects\queue_tasks\queue_tasks\queue.cpp(30): warning C4018: <=: несоответствие типов со знаком и без знака
+c:\users\роман\documents\visual studio 2015\projects\queue_tasks\queue_tasks\queue.cpp(63): warning C4018: >: несоответствие типов со знаком и без знака
+c:\users\роман\documents\visual studio 2015\projects\queue_tasks\queue_tasks\queue.cpp(80): warning C4018: >: несоответствие типов со знаком и без знака
+  main.cpp
+  Создание кода...
+  queue_tasks.vcxproj -> C:\Users\Роман\documents\visual studio 2015\Projects\queue_tasks\Debug\queue_tasks.exe
+  queue_tasks.vcxproj -> C:\Users\Роман\documents\visual studio 2015\Projects\queue_tasks\Debug\queue_tasks.pdb (Full PDB)

@@ -16,5 +16,14 @@ protected:
 public:
 	queue(const unsigned int& _size);		// - инициализация
 	queue(const queue& arg);				// - копирование
+	bool isFull();							// - проверка на полноту
+	bool isEmpty();							// - проверка на пустоту
+	int getSize();							// - вернуть размер очереди
+	int getAmount();						// - вернуть количество элементов в очереди
+	void enq(const int& el);				// - поставить элемент в конец очереди
+	int deq();								// - вытащить элемент из начала очереди
+	int peek();								// - посмотреть выходной элемент
 	~queue();								// - деструктор
+
+	friend ostream& operator<<(ostream &os, const queue& arg);
 };
